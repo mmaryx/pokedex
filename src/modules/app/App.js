@@ -1,14 +1,13 @@
 import PropTypes from 'prop-types';
-import './globalStyles'
+import GlobalStyle from './globalStyles';
 
 function Layout({ children }) {
-    return (
-      <>
-        <div>
-          {children}
-        </div>
-      </>
-    );
+  return (
+    <>
+      <GlobalStyle />
+      {children}
+    </>
+  );
 }
 
 Layout.propTypes = {
