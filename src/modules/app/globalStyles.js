@@ -4,8 +4,10 @@ const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
   :root {
-    --elements-color: rgba(255, 255, 255, 0.2);
+    --elements-color: rgba(255, 255, 255, 0.37);
     --card-color: rgb(167, 167, 167);
+    --card-color-hover: rgb(141, 141, 141);
+    --pokebola: rgb(243, 0, 0);
   }
 
   * {

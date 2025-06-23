@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { typeColors } from '@/utils/type.styles';
 
 export const Container = styled.div`
     display: flex;
@@ -40,7 +41,7 @@ export const Image = styled.div`
 `
 
 export const Image2 = styled.div`
-    background-color: var(--card-color);
+    background-color: ${({ type }) => typeColors[type]};
     width: 30px;
     height: 30px;
     border-radius: 50px;
@@ -50,10 +51,10 @@ export const Image2 = styled.div`
 `
 
 export const Image3 = styled.div`
-    background-color: var(--card-color);
-    width: 110px;
+    background-color: ${({ type }) => typeColors[type]};
+    width: 105px;
     height: 8px;
     position: absolute;
     top: 54px; 
-    right: 5px;
+    right: 89x;
 `

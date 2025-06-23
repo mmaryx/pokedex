@@ -1,3 +1,4 @@
+import React from 'react'
 import Card from './components/Card';
 import {
     Container,
@@ -11,15 +12,6 @@ function PokeList() {
             <Container>
                 <Title>Pokedex</Title>
                 <Content>
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
                     <Card />
                 </Content>
             </Container>
